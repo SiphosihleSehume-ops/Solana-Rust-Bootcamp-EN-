@@ -16,8 +16,8 @@ pub fn base_fee(signatures: u64) -> u64 {
 pub fn total(amounts: &[u64]) -> u64 {
     let mut sum: u64 = 0;
 
-    for *num in amounts {
-        sum += num;
+    for num in amounts {
+        sum += *num;
     }
     sum
 }
