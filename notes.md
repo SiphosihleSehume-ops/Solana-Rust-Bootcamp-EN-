@@ -100,4 +100,4 @@ i.e. Account  {address: address, lamports: 0, owner: `String::from("system")`}. 
 
 - As for structs, the `{ .. }` two dotted lines tells Rust to ignore everything inside the struct.
 
-- As for tuples, use an underscore to instruct Rust to ignore the details therein.
+- As for tuples, use an underscore to instruct Rust to ignore the details therein..
