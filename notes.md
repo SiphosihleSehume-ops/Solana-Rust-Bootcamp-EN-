@@ -85,3 +85,19 @@ Why `two ampersands` ?  Here's why?
 2. .filter() passes a referece to each iterator item into its closure.
 3. Therefore the closure recieves &&bool.
 4. &&value destructers those references and gives us the underlying bool. 
+
+## Working with structs in Rust
+
+- Returning a `struct` inside a function requires you to write out the struct and pass in the values as required using the dot notation. 
+
+i.e. Account  {address: address, lamports: 0, owner: `String::from("system")`}. Take note when starting of the syntax when passing in a String value.
+
+- One important note is that you should make use of `self` only when it is passed as a parameter to a function. 
+
+## Match in Remix
+
+- Works similar to how switch statements are being implemented in Java and other programming languages.
+
+- As for structs, the `{ .. }` two dotted lines tells Rust to ignore everything inside the struct.
+
+- As for tuples, use an underscore to instruct Rust to ignore the details therein.
