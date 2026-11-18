@@ -25,8 +25,8 @@ pub fn lamports_to_sol(lamports: u64) -> u64 {
 
 /// Add a bonus to a balance and return the new balance.
 pub fn apply_bonus(balance: u64, bonus: u64) -> u64 {
-    let newBalance = balance + bonus;
-    newBalance
+    let new_balance = balance + bonus;
+    new_balance
 }
 
 /// Double a value.

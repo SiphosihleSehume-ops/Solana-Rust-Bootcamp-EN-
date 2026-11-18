@@ -24,14 +24,14 @@ pub fn total(amounts: &[u64]) -> u64 {
 
 /// Count how many amounts are strictly greater than `threshold`.
 pub fn count_above(amounts: &[u64], threshold: u64) -> usize {
-    let mut numAboveThresh: usize = 0;
+    let mut num_above_thresh: usize = 0;
     
     for num in amounts {
         if *num > threshold {
-            numAboveThresh += 1;
+            num_above_thresh += 1;
         }
     }
-    numAboveThresh
+    num_above_thresh
 }
 
 /// Never transfer more than the balance.
