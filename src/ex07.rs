@@ -17,7 +17,7 @@ pub enum TransferError {
 /// 2. `SameAccount` when `from == to`
 /// 3. `Ok(())` otherwise
 pub fn validate(from: &str, to: &str, amount: u64) -> Result<(), TransferError> {
-    todo!()
+    todo()
 }
 
 /// Validate a transfer and return the sender's remaining balance.
